@@ -1,3 +1,4 @@
+
 require 'spec_helper'
 require 'pry'
 describe 'hashketball' do
@@ -41,7 +42,7 @@ describe 'hashketball' do
     { :player_name => "Kemba Walker", :number => 33, :shoe => 15, :points => 6, :rebounds => 12, :assists => 12, :steals => 7, :blocks => 5, :slam_dunks => 12 }
   }
 
-  
+
 
   describe '#game_hash' do
     let(:top_level_keys) { [:home, :away] }
